@@ -1,0 +1,138 @@
+/* Style all input fields */
+a:link, a:visited {
+  
+  
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 0px;
+    margin-left: 90px;
+  }
+  
+  a:hover, a:active {
+    background-color: #9f4cdf;
+  }
+  input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #9f4cdf;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+    }
+    input[type=text] {
+      border: 2px solid #db61d9;
+      border-radius: 15px;
+      background-color:#db61d9;
+    }
+    input[type=password] {
+      border: 2px solid #db61d9;
+      border-radius: 15px;
+      background-color:#db61d9;
+    }
+  nav{
+      color:#ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      padding: 50px;
+      margin-left: 65px;
+      
+  }
+  p1{
+      color:#ffffff;
+      padding: 20px;
+      
+      
+  }
+  p2{
+      font-size: 20px;
+      margin-left: -15px
+      
+  }
+  .us1{
+      color:#FFF;
+  }
+    /* Style the submit button */
+    input[type=submit] {
+      background-color: #000000;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      border-radius: 89px;
+      text-align: center;
+      margin-left: px;
+      ;
+    }
+    
+    /* Style the container for inputs */
+    
+    /* Style the container for inputs */
+  .container {
+      
+      padding: 20px;
+    }
+    label {
+      cursor: pointer;
+      color: #fff;
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+  }
+  
+    /* The message box is shown when the user clicks on the password field */
+    #message {
+      display:none;
+      background:#9f4cdf;
+      color: #000;
+      position: relative;
+      padding: 20px;
+      margin-top: 10px;
+    }
+    
+    #message p {
+      padding: 10px 35px;
+      font-size: 18px;
+    }
+    
+    /* Add a green text color and a checkmark when the requirements are right */
+    .valid {
+      color: green;
+    }
+    
+    .valid:before {
+      position: relative;
+      left: -35px;
+      content: "&#10004;";
+    }
+    
+    /* Add a red text color and an "x" icon when the requirements are wrong */
+    .invalid {
+      color: red;
+    }
+    
+    .invalid:before {
+      position: relative;
+      left: -35px;
+      content: "&#10006;";
+    }
+  
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+      height: 736px;
+      box-shadow: 0 0 20px 1px rgba(0, 0, 0, .2);
+      border-radius: 30px;
+      background-color: #FFF;
+      background-image: radial-gradient(#732a6e,#171717);
+      padding-top: 20px;
+    }
+    
