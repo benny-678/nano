@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="./index.css">
+    
+    <title>App</title>
+    </head>
+    <body>
+    <nav>
+        <p1>Login</p1><br>
+        <p2></p2>
+    </nav>
+    
+    
+        <div class="container">
+        <form action="/index14.html">
+          <label for="usrname" id="us1">Username</label>
+          <input type="text" id="usrname" name="usrname" required>
+      
+          <label for="psw">Password</label>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <!--<input type="submit" id="psw" name="usrname" >--->
+        <input type="submit" id="" value="Sign In" style="border:5px rgb(148, 8, 229);background-color:#000000;height:56px; width:100%">
+          <!--<input href="./index2.html" type="submit" value="Register" >-->
+          <!--<button href="./index2.html" type="button">Register</button>-->
+          
+          <br><br>
+          <script src="https://accounts.google.com/gsi/client" async></script>
+    <div id="g_id_onload"
+        data-client_id="802314902917-77tlbi5g76c43eaufcc31900tt4mrlnt.apps.googleusercontent.com"
+        data-login_uri="https://support.google.com/"
+        data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="circle"
+        data-logo_alignment="left">
+    </div><br>
+    <div>
+    
+    <br></div>
+    <div>
+    <a href="./index.html" >Register</a>
+    </div>
+        </div>
+      </form>
+      
+      <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+      
+
+
+
+      
+
+        <script src="index.js"></script>
+    
+
+    </body>
+</html>
+
+
