@@ -1,0 +1,134 @@
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #9f4cdf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  input[type=text] {
+    border: 2px solid #db61d9;
+    border-radius: 15px;
+    background-color:#f3aef2;
+    
+  }
+  input, select, textarea{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+  input[type=email] {
+    border: 2px solid #db61d9;
+    border-radius: 15px;
+    background-color:#f3aef2;
+  }
+  input[type=password] {
+    border: 2px solid #db61d9;
+    border-radius: 15px;
+    background-color:#f3aef2;
+  }
+nav{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 40px;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: -08x;
+}
+p1{
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+}
+p2{
+    font-size: 20px;
+    margin-left: -15px;
+    
+}
+a{
+    font-size: 20px;
+    margin-left: -15px;
+    color: white;
+}
+.us1{
+    color:#FFF;
+}
+
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+  }
+  
+  /* Style the container for inputs */
+  
+  /* Style the container for inputs */
+.container {
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: -30px;
+  }
+  label {
+	cursor: pointer;
+	color: #fff;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background:#9f4cdf;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: rgb(78, 8, 144);
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+    
+    background-color: #FFF;
+    background-image: radial-gradient(#732a6e,#171717);
+    
+  }
+  
