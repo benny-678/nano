@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction:column;
+    flex-wrap:inherit;
+    width: 100%;
+    height: 100%;
+    /*box-shadow: 0 0 20px 1px rgba(0, 0, 0, .2);*/
+    border-radius: 30px;
+    background-color: #ffffff;
+    /*background-image: radial-gradient(#732a6e,#171717);*/
+    
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Existing styles */
+.profile-info {
+    display: flex;
+    align-items: center;
+   
+}
+.profile-info img {
+            width: 40px; /* Adjust as needed */
+            height: 40px;
+            
+}
+.top-profile-bar {
+    position: fixed;
+    background-color: #f5f5f5;
+    padding: 1px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-left: -7.989px;
+    width: 100%;
+    margin-top: -8px;
+    
+    
+}
+.profile-info p {
+    margin: 10;
+    font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    
+}
+
+.top-icons {
+    display: flex;
+    align-items: center;
+}
+
+.top-icons i {
+    margin-right:20px;
+    font-size: 31px;
+    cursor: pointer;
+    color: #4d20d2;
+}
+
+
+
+
+
+
+
+
+.gapo{
+    padding-top: 60px;
+}
+
+
+
+.image-button {
+    display: flex;
+    align-items: center;
+    
+    border-top: 10px;
+    padding-top: 5px;
+    margin-top: 2px; /* Adjust as needed */
+    justify-content:space-around;
+    
+}
+
+.image-button img {
+    width: 180px; /* Adjust as needed */
+    height: auto;
+    
+    border-radius: 0%;
+    /*
+    border-style: single;
+    border-color: #999999;
+    border-width: 10px;*/
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-button img:hover {
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -7.989px;
+}
+
+.bottom-nav-item {
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-nav-item i {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.bottom-nav-item.active {
+    color: #4d20d2; /* Change to your preferred active color */
+}
+
