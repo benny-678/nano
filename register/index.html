@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="./index.css">
+    
+    <title>App</title>
+    </head>
+    <body>
+    <nav>
+        <p1>Create New Account</p1><br>
+        <p2>Already registered ?</p2><br>
+        <a href="./sign.html">Log in here</a>
+    </nav>
+    
+        <div class="container">
+        <form action="/action_page.php">
+          <label for="usrname" id="us1">Name</label>
+          <input type="text" id="userinp" name="usrname" placeholder="Enter your name" required>
+
+          <label for="feild" id="us1">DOB</label>
+          <input type="date" id="userinp" name="DOB" style="background-color:#f3aef2; border-radius: 12px;" required>
+        
+      
+          
+        <label for="field">Field of research</label>
+        <input type="text" id="userinp" name="usrname" placeholder="Enter your field of research " required>
+
+        <label for="field">Sample type</label>
+        <select id="samp" name="field" style="background-color:#f3aef2; border-radius: 12px;font-size: 21px;" required>
+        <option  value="select" style="background-color:#f3aef2; border-radius: 12px; font-size: 10px;font-family: Arial, Helvetica, sans-serif;">Select</option>
+        <option value="Solid" style="background-color:#f3aef2; border-radius: 12px; font-size: 10px;font-family: Arial, Helvetica, sans-serif;">Solid</option>
+        <option value="Fluid" style="background-color:#f3aef2; border-radius: 12px; font-size: 10px;font-family: Arial, Helvetica, sans-serif;">Fluid</option>
+        <option value="Solution" style="background-color:#f3aef2; border-radius: 12px; font-size: 10px; font-family:Arial, Helvetica, sans-serif;">Solution</option>
+        </select><br>
+        
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution" placeholder="Enter institution name" required>
+
+        <label for="field" id="email">Institution E-mail ID</label>
+        <input type="email" id="userinp" name="usrname"placeholder="Enter your institution E-mail ID" required>
+    
+
+        <label for="psw" >Password</label>
+        <input type="password" id="psw" name="psw" placeholder="Create password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+        <label  for="agree" style="float: right;padding: 10px 20px 20px;">I agree to the Terms and Conditions</label>
+        <span style="display:block; overflow: hidden; padding: 10px 10px 20px; ">
+        <input type="checkbox" id="agree" name="agree" required >
+        </span>
+      
+        <input type="submit" value="Sign Up">
+          
+        </form>
+        </div>
+      
+      <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+
+
+
+        <script src="index.js"></script>
+    
+
+    </body>
+</html>
+
